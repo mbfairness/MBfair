@@ -1,6 +1,6 @@
 # MBFair: A Model-based Verification Methodology for Detecting Violations of Individual Fairness 
  
-In this file, we presents the artifacts used in our SoSyM paper, which provides a Framework for Analysing Individual Fairness based on Software Models. The artifacts include:
+In this file we presents our developed artifacts that supports our MBFair methodology. The artifacts include:
 
 * The *UMLfair profile*:a Papyrus editor extension permits annotating UML models with the UMLfair profile.
 
