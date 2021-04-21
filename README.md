@@ -16,8 +16,8 @@ processes, the Delivery Management System based on the incedent describtion of [
 
 # Recources
 
-* **The UMLfair Profile:** https://github.com/QRamadan/MBFair/blob/main/profile.zip
-* **The lucn configuration to the transformation tool hugo/RT:** https://github.com/QRamadan/MBFair/blob/main/hugort.launch
+* **The UMLfair Profile:** https://github.com/mbfairness/MBfair/blob/main/profile.zip
+* **The lucn configuration to the transformation tool hugo/RT:** https://github.com/mbfairness/MBfair/blob/main/hugort.launch
 * **The generators:** https://github.com/QRamadan/MBFair/blob/main/MBFairness.zip
 
 * **Artifacts: The bank management system case study:** https://github.com/QRamadan/MBFair/blob/main/BankManagementSystem.zip
