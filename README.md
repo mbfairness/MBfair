@@ -18,11 +18,11 @@ processes, the Delivery Management System based on the incedent describtion of [
 
 * **The UMLfair Profile:** https://github.com/mbfairness/MBfair/blob/main/profile.zip
 * **The lucn configuration to the transformation tool hugo/RT:** https://github.com/mbfairness/MBfair/blob/main/hugort.launch
-* **The generators:** https://github.com/QRamadan/MBFair/blob/main/MBFairness.zip
+* **The LTL generator and the proxy information generator:** https://github.com/mbfairness/MBfair/blob/main/MBFairness.zip
 
-* **Artifacts: The bank management system case study:** https://github.com/QRamadan/MBFair/blob/main/BankManagementSystem.zip
-* **Artifacts: The delivery management system case study:** https://github.com/QRamadan/MBFair/blob/main/DeliveryManagementSystem.zip
-* **Artifacts: The loan management system case study:** https://github.com/QRamadan/MBFair/blob/main/LoanManagementSystem.zip
+* **Artifacts: The bank management system case study:** https://github.com/mbfairness/MBfair/blob/main/BankManagementSystem.zip
+* **Artifacts: The delivery management system case study:** https://github.com/mbfairness/MBfair/blob/main/DeliveryManagementSystem.zip
+* **Artifacts: The loan management system case study:** https://github.com/mbfairness/MBfair/blob/main/LoanManagementSystem.zip
 
 The artifacts of each each case study contains: 
 * a (*.uml*) file: the UML model of the system annotated with the UMLfair profile.
