@@ -6,10 +6,12 @@ In this file we presents our developed artifacts that supports our MBFair method
 
 * The launch configuration to the transformation tool Hugo/RT.
 
-* Generators: A prototypical implementation of our work. It consists of: First, the generator of LTL formulas conform to Defenition 1 in our paper. Second, the generator of proxis based on a database.
+* LTL formulas generator: a prototypical implementation of our  LTL formulas generator.
 
-* The inputs and the outputs of applying our proposed framework on three case studies namely, the Bank Management System inspired by a real decision-making
-processes in a [finance branch](https://www.hypovereinsbank.de/hvb/privatkunden/kundenvorteile/kundenprogramm-valyou), the Delivery Management System based on the incedent describtion of [Amazon's delivery-free service](https://www.bloomberg.com/graphics/2016-amazon-same-day/), and the Loan Management System based on [business process model](https://link.springer.com/chapter/10.1007/978-3-319-92901-9_19) from an [event log](https://www.win.tue.nl/bpi/doku.php?id=2012:challenge) recording the loan management process of a Dutch financial institute. 
+* Proxy information generator: a prototypical implementation that generates proxy information based on a database.
+
+* The inputs and the outputs of applying our proposed MBFair methodology on three case studies namely, the Bank Management System inspired by a real decision-making
+processes, the Delivery Management System based on the incedent describtion of [Amazon's delivery-free service](https://www.bloomberg.com/graphics/2016-amazon-same-day/), and the Loan Management System based on [business process model](https://link.springer.com/chapter/10.1007/978-3-319-92901-9_19) from an [event log](https://www.win.tue.nl/bpi/doku.php?id=2012:challenge) recording the loan management process of a Dutch financial institute. 
 
 
 # Recources
