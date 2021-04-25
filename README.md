@@ -51,7 +51,7 @@ We recommend using [Eclipse, Modeling Tools distribution](https://www.eclipse.or
 * The result of the transformatio is (.pml) file saved to the *hugoRT* project directory.
 
 # Step 2: Generating LTL formulas
-The uploaded [MBFairness.zip](https://github.com/QRamadan/MBFair/blob/main/MBFairness.zip) file includes all the required artifacts for generating LTL formulas based on the UML models that are annotated with the UMLfair profile. 
+The uploaded [MBFairness.zip](https://github.com/mbfairness/MBfair/blob/main/MBFairness.zip) file includes all the required artifacts for generating LTL formulas based on the UML models that are annotated with the UMLfair profile. 
 
 ## Prerequisite 
 We recommend using [Eclipse, Modeling Tools distribution](https://www.eclipse.org/downloads/packages/release/neon/r/eclipse-modeling-tools).
@@ -59,7 +59,7 @@ We recommend using [Eclipse, Modeling Tools distribution](https://www.eclipse.or
 ## Performing the generation of LTL formulas. 
 To execute the generation of LTL formulas from UML models annotated with the UMLfair profile, please follow the following instruction. 
 
-* Import the project package [MBFairness.zip](https://github.com/QRamadan/MBFair/blob/main/MBFairness.zip)  to your local Eclipse workspace.
+* Import the project package [MBFairness.zip](https://github.com/mbfairness/MBfair/blob/main/MBFairness.zip)  to your local Eclipse workspace.
 * Right-click on the main class *"src/generators/GenerateLTLFormulas.java"* → *Run As Java Application*. Our generator takes as inputs: First, a UML model saved as (.xml) file. Second, information of proxies saved in a (.xlsx) file. By default, our LTL generator takes as input the *bankSystem.xml* and the *ProxyOfBankSystem.xlsx* files. 
 
 * For changing the input (.xml) file: First, copy the name of one of the (.xml) files that are provided in *MBFairness → src → generators* directory. Second, find line 47 in the *GenerateLTLFormulas.java* file (**File inputFile = new File(xmlPath+"\\bankSystem.xml");**) and replace the file name *"bankSystem"* with the name of the selected (.xml) file. 
@@ -92,13 +92,13 @@ Install [SpinRCP, An Integrated Development Environment for the Spin Model Check
 * To simulate the (.trail) file, select the SpinRCP menu item *Run→ Simulation*. In the simulation window, select *Guided* and *Using filename.trail*. Then press *OK*  and then Press *Run*.
 
 # Step 4 (Optional): Generating proxies of protected characteristics 
-The uploaded [MBFairness.zip](https://github.com/QRamadan/MBFair/blob/main/MBFairness.zip) file includes all the required artifacts for generating proxies of protected characteristics based on data bases of personal information. 
+The uploaded [MBFairness.zip](https://github.com/mbfairness/MBfair/blob/main/MBFairness.zip) file includes all the required artifacts for generating proxies of protected characteristics based on data bases of personal information. 
 
 
 ## Performing the proxies generation . 
 To execute the generation of proxies, please follow the following instruction. 
 
-* Import the project package [MBFairness.zip](https://github.com/QRamadan/MBFair/blob/main/MBFairness.zip)  to your local Eclipse workspace.
+* Import the project package [MBFairness.zip](https://github.com/mbfairness/MBfair/blob/main/MBFairness.zip)  to your local Eclipse workspace.
 * Right-click on the main class *"src/generators/GenerateMetrics.java"* → *Run As Java Application*. Our algorithm takes as a UML model annotated with fairness-related infomrmation and saved as (.xml) file. The goal of this algorithm is to retrieve the protected characteristics, the name of the correlation metric to be used for measuring correlation and the threshold. The threshold is needed inorder to identfy when a specific data item can act as a proxy for a protected characteristic. The By default, our algorithm takes as input the *bankSystem.xml* file. 
 
 * For changing the input (.xml) file: First, copy the name of one of the (.xml) files that are provided in *MBFairness → src → generators* directory. Second, find line 46 in the *GenerateMetrics.java* file (**File inputFile = new File(xmlPath+"\\bankSystem.xml");**) and replace the file name *"bankSystem"* with the name of the selected (.xml) file. 
