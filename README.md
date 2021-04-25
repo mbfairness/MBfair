@@ -1,6 +1,7 @@
 # MBFair: A Model-based Verification Methodology for Detecting Violations of Individual Fairness 
  
 In this file we presents our developed artifacts that supports our MBFair methodology. The artifacts include:
+* Long version of our paper: [long version](https://github.com/mbfairness/MBfair/blob/main/Models21-longversion.pdf)
 
 * The *UMLfair profile*:a Papyrus editor extension permits annotating UML models with the UMLfair profile.
 
